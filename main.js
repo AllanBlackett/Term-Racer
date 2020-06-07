@@ -1,6 +1,16 @@
 // $( document ).ready() block.
 $( document ).ready(function() {
+   
+    $(function() { init();
+  });
 
+  // To change level
+  const currentLevel = levels.medium;
+  
+  let time = currentLevel;
+  let score = 0;
+  let isPlaying;
+  
    // DOM Elements
   const wordInput = document.querySelector('#placeholder');
   const currentWord = document.querySelector('#current-word');
