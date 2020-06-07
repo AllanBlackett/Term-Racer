@@ -5,10 +5,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Word Racer</title>
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/style.css">
+  <!-- Font - Tomorrow -->
+  <link href="https://fonts.googleapis.com/css2?family=Tomorrow&display=swap" rel="stylesheet">
   </head>
+
 <body>
-  
+  <header>
+    <h1>Word Racer</h1>
+  </header>
+
+  <!-- Main Container -->
+  <div class="main-container">
+    <!-- Instructions -->
+    <div class="instructions"> 
+      <h5>Instructions</h5>  
+      <p>Type The Given Word Within The Time Limit. To play again, type the current word, and your score will reset.</p>    
+    </div>
+    <!-- Word & Input -->
+    <div class="word-input">
+      <h2 class="current-word">hello</h2>
+      <input type="text" placeholder="Start typing..." id= word-placeholder>
+      <h4 id="message"></h4>
+    </div>
+    
+    <!-- Time & Score -->
+    <div class="time-score">
+      <div class="time">
+        <h3>Time Left:
+          <span id="time">0</span>
+        </h3>
+      </div>
+      <div class="score">
+        <h3>Score:
+          <span id="score">0</span>
+        </h3>
+      </div>
+    </div>
+  </div>
+
+
+
+
   <!-- Main Script File -->
   <script src="main.js"></script>
 </body>
