@@ -73,9 +73,9 @@ $(document).ready(function () {
 
   // Initialize the game
   function init() {
-    // Load word from array
+    // Load words from array
     displayWord(words);
-    // Start matching on word input
+    // Start matching on placeholder input
     $(placeholder).on('input', beginMatch)
     // Call countdown every second
     setInterval(countdown, 1000);
