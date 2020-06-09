@@ -12,7 +12,7 @@ body {
   width: 100%;
 }
 
-header h1{
+header h1 {
   text-align: center;
   color: #FFFFFF;
   text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00;
@@ -23,43 +23,22 @@ header h1{
 .main-container {
   display: flex;
   flex-direction: column;
-  /* justify-content: center; */
-  /* align-items: center; */
-  border: 1px solid red;
   margin: 0 auto;
   width: 60%;
 }
 
 /* Instructions */
-
 .instructions {
   justify-content: center;
-  border: 1px solid #940101;
-  border-radius: 4px;
-  width: 60%;
-  height: 120px;
+  width: 400px;
   text-align: center;
-  margin: 15px auto 0 auto;
-}
-
-.instructions h5 {
-  font-size: 2.1vw;
-  padding: 5px 0;
-  font-weight: bolder;
-}
-
-
-
-/* Word & Input */
-.word-input {
-  border: 1px solid #fff;
   margin: 0 auto;
-  width: 100%;
-  text-align: center;
+  padding: 15px 10px;
 }
 
-#word-placeholder {
-
+.instructions p {
+  font-size: 18px;
+  font-weight: lighter;
 }
 
 /* Time & Score */
@@ -67,30 +46,116 @@ header h1{
   display: flex;
   align-items: flex-start;
   flex-wrap: nowrap;
+  margin: 10px auto 0 auto;
+  font-size: 20px;
 }
 
-
-@media screen and (max-width: 800px) { 
-
-  .instructions p {
-    font-size: 2.2vw;
-  }
-  
+.time-score .time {
+  margin-right: 80px;
 }
 
-@media screen and (max-width: 650px) {
+.time-score #time {
+  font-size: 30px;
+  color: red;
+}
+
+.time-score #score {
+  font-size: 30px;
+  color: green;
+}
+
+/* Word & Input */
+.word-input {
+  margin: 15px auto 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.word-input h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 100px;
+  font-weight: lighter;
+}
+
+/* Placeholder  */
+#placeholder {
+  margin: 30px 0;
+  outline: none;
+  box-shadow: 2px 10px 30px rgba(129, 0, 0, 0.788);
+  padding: 14px 12px;
+  text-align: center;
+  border-radius: 30px;
+  transition: background-color 0.1s linear;
+  letter-spacing: 0.7px;
+  border: none;
+  animation: fade 0.6s ease-in-out 1.2s forwards;
+  cursor: pointer;
+  background-color: #202020;
+  color: #fff;
+  font-size: 18px;
+}
+
+#placeholder:focus {
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #000;
+}
+
+.fa-thumbs-up {
+  font-size: 80px;
+  color: green;
+}
+
+#message {
+  font-size: 30px;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 670px) {
   .main-container {
     width: 100%;
-
   }
-  
+
   .instructions {
-    width: 60%;
-    height: 100px;
+    width: 100%;
   }
 
   .instructions p {
     font-size: 3vw;
   }
+
+  .word-input h2 {
+    font-size: 17vw;
+
+  }
 }
 
+/* Resonsive Design */
+@media screen and (max-width: 415px) {
+  header h1 {
+    font-size: 30px;
+  }
+
+  .instructions p {
+    font-size: 4vw;
+  }
+
+  .time-score h3 {
+    font-size: 18px;
+  }
+
+  .time-score .time {
+    margin-right: 20px;
+  }
+
+  .time-score #time {
+    font-size: 25px;
+  }
+
+  .time-score #score {
+    font-size: 25px;
+  }
+
+  #placeholder {
+    width: 100%;
+  }
+}
