@@ -6,4 +6,4 @@ My project is called Term-Racer.
 
 Speed typing Term app built with JQuery.
 
-You can View the app here: https://term-racer.herokuapp.com/
+You can view the app here: https://term-racer.herokuapp.com/
