@@ -1,2 +1,2 @@
-# Word-Racer
-Speed typing app built with JQuery.
+# Term-Racer
+Speed typing Term app built with JQuery.
