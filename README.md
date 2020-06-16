@@ -1,6 +1,6 @@
 # Project 3
 
-My project is called Term-Racer.
+Term-Racer created with jQuery. 
 
 ## Project Description
 
