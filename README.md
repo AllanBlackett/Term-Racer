@@ -1,4 +1,4 @@
-# Project 2 (solo interactive jQuery site)
+# Project 3
 
 My project is called Term-Racer.
 
