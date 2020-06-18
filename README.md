@@ -1,10 +1,10 @@
-# Juno Project 3 
+# Juno Project 3 - Term Racer
 
-Term-Racer created with jQuery. 
+
 
 ## Project Description
 
-An engaging and interactive experience while learning how to type words faster.
+Term-Racer created with jQuery. An engaging and interactive experience while learning how to type words faster.
 
 ## Project objective
 
