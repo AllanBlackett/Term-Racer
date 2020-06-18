@@ -4,7 +4,7 @@
 
 ## Project Description
 
-Term-Racer created with jQuery. An engaging and interactive experience while learning how to type words faster.
+Speed typing app built with jQuery. An engaging and interactive experience while learning how to type words faster.
 
 ## Project objective
 
