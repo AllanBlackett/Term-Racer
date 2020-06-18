@@ -22,6 +22,7 @@ To show a understanding of jQuery, DOM manipulation, error handling, and UI desi
 -   Errors are handled effectively
 -   Files, folders & naming conventions followed (camel case)(this includes your project repo)
 
-You can view the app here: https://term-racer.herokuapp.com/
+
+### View the app here: https://term-racer.herokuapp.com/
 
 
