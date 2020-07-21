@@ -1,4 +1,4 @@
-# Juno Project 3 - Term Racer
+# Term Racer - Juno Project 3
 
 
 
